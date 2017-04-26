@@ -1,6 +1,6 @@
 # npmtest-vue-resource
 
-#### test coverage for  [vue-resource (v1.3.1)](https://github.com/pagekit/vue-resource#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-vue-resource.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vue-resource) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vue-resource.svg)](https://travis-ci.org/npmtest/node-npmtest-vue-resource)
+#### basic test coverage for  [vue-resource (v1.3.1)](https://github.com/pagekit/vue-resource#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-vue-resource.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vue-resource) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vue-resource.svg)](https://travis-ci.org/npmtest/node-npmtest-vue-resource)
 
 #### The HTTP client for Vue.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-vue-resource/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-vue-resource/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-vue-resource/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-vue-resource/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vue-resource/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vue-resource/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-vue-resource/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-vue-resource/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vue-resource/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vue-resource/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-vue-resource/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-vue-resource/build/coverage.html/index.html)
 
@@ -94,7 +94,8 @@
         "test": "jest --env=node",
         "webpack": "webpack --config test/webpack.config.js"
     },
-    "version": "1.3.1"
+    "version": "1.3.1",
+    "bin": {}
 }
 ```
 
